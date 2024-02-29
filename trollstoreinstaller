@@ -1,0 +1,21 @@
+set -e
+
+if [ -e /mnt2/mobile ]; then
+    :
+else
+echo "you didn't run mount_filesystems! Or it failed. If so report an issue"
+exit
+fi
+
+if [ "$1" = "Tips" ]; then
+app=$(find /mnt2/containers/Bundle/Application/ -name "Tips.app")
+mv ${app}/Tips ${app}/Tips_TROLLSTORE_BACKUP
+cp /usr/trollstore/PersistenceHelper ${app}/Tips
+cp /usr/trollstore/trollstorehelper $app
+/usr/sbin/chown 33 ${app}/Tips
+chmod 755 ${app}/Tips ${app}/trollstorehelper
+/usr/sbin/chown 0 ${app}/trollstorehelper
+touch ${app}/.TrollStorePersistenceHelper
+echo "Done!"
+exit
+fi
