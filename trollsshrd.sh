@@ -60,8 +60,8 @@ else
 
 	# Download trollstore
 
-	wget https://github.com/opa334/TrollStore/releases/download/2.0.13/PersistenceHelper_Embedded
-	wget https://github.com/opa334/TrollStore/releases/download/2.0.13/TrollStore.tar
+	wget https://github.com/opa334/TrollStore/releases/download/2.1/PersistenceHelper_Embedded
+	wget https://github.com/opa334/TrollStore/releases/download/2.1/TrollStore.tar
 
 	# Change name of persistancehelper
 
