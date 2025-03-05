@@ -20,8 +20,8 @@
 
 - iPhone 7 and Linux Mint works
 - iPhone 7 and Ubuntu works
-- iPhone 7 and old toshiba laptop on Arch Linux with hyprland dont work
-- iPhone 7 and chromebook on Arch Linux with dwm dont work "read-only system" in ssh
+- iPhone 7 and Old Toshiba laptop on Arch Linux dont work
+- iPhone 7 and Chromebook on Arch Linux dont work getting "read-only system" error in ssh
 
 # Usage
 
@@ -30,4 +30,4 @@
 # Credits
 - [verygenericname](https://github.com/verygenericname) for SSHRD_Script
 - [opa334](https://github.com/opa334) for TrollStore and Dopamine
-- [mullerdavid](https://www.reddit.com/r/jailbreak/comments/18ftdhr/trollstore_with_sshrd/) for inspiration
+- [mullerdavid](https://www.reddit.com/r/jailbreak/comments/18ftdhr/trollstore_with_sshrd/) for code and inspiration
