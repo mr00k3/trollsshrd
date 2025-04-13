@@ -18,9 +18,9 @@ trap cleanup INT
 echo "What is your iOS version? e.g. 15.8"
 read iosversion
 
+sudo systemctl stop usbmuxd
 sudo pkill -9 iproxy
 sudo pkill -9 usbmuxd
-sudo systemctl stop usbmuxd
 sudo usbmuxd -p & disown
 clear
 
