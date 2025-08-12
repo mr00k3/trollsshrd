@@ -5,7 +5,7 @@
 
 # Requirements
 - Needs a checkm8 vulnerable iOS device on iOS 15.x or 16.x (`A8` - `A11`) with Tips app installed
-
+- python rewrite is coming i think
 - **USB-A** cables are recommended to use, USB-C may have issues with getting into DFU mode.
 
 - A computer running **Linux Mint** or **Ubuntu** or even **Arch Linux** with installed 
