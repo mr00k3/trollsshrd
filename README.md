@@ -8,16 +8,18 @@
 
 - **USB-A** cables are recommended to use, USB-C may have issues with getting into DFU mode.
 
-- A computer running **Linux Mint** or **Ubuntu** with installed 
+- A computer running **Linux Mint** or **Ubuntu** or even **Arch Linux** with installed 
     - libimobiledevice (usbmuxd, iproxy), libusbmuxd-tools for ubuntu
     - sshpass
     - unzip
     - curl
     - wget
     - git
+    - libxml2 (only for arch) 
 
 # Tested on
 
+- iPhone 7 and Arch Linux on T480 works
 - iPhone 7 and Linux Mint works
 - iPhone 7 and Ubuntu works
 - iPhone 7 and Old Toshiba laptop on Arch Linux dont work
@@ -25,6 +27,11 @@
 
 # Usage
 
+## Ubuntu
+`git clone https://github.com/mr00k3/trollsshrd.git && cd trollsshrd` then `sudo ./trollsshrd.sh`
+
+## Arch Linux
+run `sudo ln -s /usr/lib/libxml2.so /usr/lib/libxml2.so.2` then 
 `git clone https://github.com/mr00k3/trollsshrd.git && cd trollsshrd` then `sudo ./trollsshrd.sh`
 
 # Credits
